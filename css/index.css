@@ -1,0 +1,84 @@
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/FontsFree-Net-Vazir-Medium-1.ttf") format("ttf");
+  font-weight: 700;
+  font-style: normal;
+}
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Vazir;
+}
+a {
+  text-decoration: none;
+}
+li,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  background: linear-gradient(to bottom right, #b2f0e9 0%, #1e3c72 100%);
+}
+.form-container {
+  background-color: transparent;
+  padding: 20px;
+  width: 60%;
+  height: auto;
+}
+.title-convert {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.input-group {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: auto;
+  padding: 0;
+}
+.input-value {
+  padding: 8px;
+  border-radius: 0.5rem;
+  width: 40%;
+  outline: none;
+  border: none;
+}
+.change-temp {
+  color: #bebe1d;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.button-container {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.button-container button {
+  padding: 2px 42px;
+  font-size: 24px;
+  background-color: transparent;
+  color: #aefeff;
+  border: 2px solid #2b4db3;
+  border-radius: 8px;
+  box-shadow: 2px 4px 10px #152a6a;
+  cursor: pointer;
+  transition: all 0.25s ease-in;
+}
+.button-container button:hover {
+  color: #2b4db3;
+  border: 2px solid #aefeff;
+  box-shadow: 2px 4px 10px #aefeff;
+}
